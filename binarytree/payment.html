@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment information</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form action="">
+    <h1>Make payment</h1>
+    <p>card Type: 
+        <select name="card_type" id="card_type">
+            <option value="">--select a card-- required</option>
+            <option value="visa">Visa</option>
+            <option value="dhani ">Dhani</option>
+            <option value="master card">Master card</option>
+            <option value="rupay">Rupay</option>
+        </select>
+
+    </p>
+    <p>card no.: <input type="number" name="card number" id="card number" required></p>
+    <p> CVV: <input type="password" name="CVV" id="CVV" required></p>
+    <p>Date of Expiry: <input type="date" name="expiry date" id="expiry date"required></p>
+    <a href="payment_form.html">Back</a>
+    <input type="button" value="pay now">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+h4{
+    color: brown;
+}
+a{
+    color:darkred;
+}
+p{
+    color: chartreuse;
+}
+li{
+    list-style-type: circle;
+}
+.sp{
+    color: darkred;
+    font-weight: bolder;
+}
+li em{
+    color: rebeccapurple;
+}
+a:hover{
+    color: tomato;
+    text-decoration: none;
+    text-align: left;
+    background-color: teal;
+}
